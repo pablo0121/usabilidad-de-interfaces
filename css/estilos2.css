@@ -10,7 +10,7 @@ padding: 10px;
 #cabecera{
     width: 98.5%;
     height: auto;
-    background-color: red;
+    background-color: rgb(102, 206, 192);
 }
 #cabecera h1{
     padding-top: 20px;
@@ -18,7 +18,7 @@ padding: 10px;
     padding-bottom: 10px;
 }
 #cabecera nav{
-    background-color: blueviolet;
+    background-color: rgb(216, 155, 114);
     height: 10%;
     width: 99.7%;
     border: 2px solid black;
@@ -34,7 +34,7 @@ padding: 10px;
 }
 #cabecera nav li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 #cabecera form {
     height: 60px; 
@@ -105,7 +105,7 @@ section , article , .descripcion , .ingredientes, .elaboracion{
   font-size: 18px;
 }
 #principal #receta fieldset{
-    margin: 20px 20px 10px 10px;
+    margin: 20px 20px 10px 20px;
     padding-bottom: 20px
 }
 /*parte de la receta 2*/
@@ -141,7 +141,7 @@ section , article , .descripcion , .ingredientes, .elaboracion{
     font-size: 18px;
   }
   #principal #receta2 fieldset{
-      margin: 20px 20px 5px 10px;
+      margin: 20px 20px 5px 20px;
       padding-bottom: 20px
   }
 
@@ -180,7 +180,7 @@ section , article , .descripcion , .ingredientes, .elaboracion{
     font-size: 18px;
   }
   #principal2 #receta3 fieldset{
-      margin: 20px 20px 0px 10px;
+      margin: 20px 20px 0px 20px;
       padding-bottom: 20px
   }
 
@@ -211,5 +211,5 @@ padding-left: 30px;
     text-align: center;
     padding: 20px 10px;
     border-top: 2px solid #999999;
-    background-color: goldenrod;
+    background-color: rgb(171, 135, 206);
 }
