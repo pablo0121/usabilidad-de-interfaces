@@ -1,0 +1,215 @@
+* {   
+    margin: 0px;   
+    padding: 0px; 
+}
+#agrupar{
+width: 100%;
+height: auto;
+padding: 10px;
+}
+#cabecera{
+    width: 98.5%;
+    height: auto;
+    background-color: red;
+}
+#cabecera h1{
+    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+#cabecera nav{
+    background-color: blueviolet;
+    height: 10%;
+    width: 99.7%;
+    border: 2px solid black;
+}
+#cabecera nav li{
+    padding-top: 1.8%;
+    display: inline-block;
+    list-style: none; 
+    color: black;
+    padding-left: 100px;
+    font-size: 20px;
+
+}
+#cabecera nav li a{
+    text-decoration: none;
+    color: white;
+}
+#cabecera form {
+    height: 60px; 
+    width: 24%;
+    float: right;
+}
+#cabecera form input[type="text"]{
+    margin-top: 10px;
+    padding: 10px;
+}
+#cabecera form  input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    float: center;
+}
+section , article , .descripcion , .ingredientes, .elaboracion{
+    display: block;
+}
+#principal{
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+    margin-left: 1%;
+}
+#principal h2{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+#principal1{
+    float: left;
+    width: 98.5%;
+    background-color: rgb(228, 226, 121);
+}
+#principal #receta{
+     width: auto;
+     height: 520px;
+
+}
+#principal #receta .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal #receta .ingredientes{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 10px;
+}
+#principal #receta .ingredientes li{
+  list-style: none;
+}
+#principal #receta .elaboracion{
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-right: 80px;
+    padding: 15px;
+    margin-left: 15px;
+}
+#principal1 fieldset legend{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#principal #receta fieldset legend{
+  font-size: 18px;
+}
+#principal #receta fieldset{
+    margin: 20px 20px 10px 10px;
+    padding-bottom: 20px
+}
+/*parte de la receta 2*/
+#principal #receta2{
+    width: auto;
+    height: 780px;
+
+}
+#principal #receta2 .ingredientes{
+   float: left;
+   width: 200px;
+   height: auto;
+   margin-top: 20px;
+   margin-left: 25px;
+   margin-right: 10px;
+   padding: 20px;
+}
+#principal #receta2 .ingredientes li{
+ list-style: none;
+}
+#principal #receta2 .elaboracion{
+   margin-top: 20px;
+   width: 400px;
+   height: auto;
+   float: right;
+   margin-right: 50px;
+   padding: 25px;
+}
+#principal #receta2 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal #receta2 fieldset legend{
+    font-size: 18px;
+  }
+  #principal #receta2 fieldset{
+      margin: 20px 20px 5px 10px;
+      padding-bottom: 20px
+  }
+
+/*parte de la receta pescado*/
+#principal2{
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+    margin-left: 1%;
+}
+#principal2 #receta3{
+    padding-bottom: 20px;
+}
+#principal2 #receta3 .ingredientes{
+   float: left;
+   width: 200px;
+   margin-top: 20px;
+   margin-left: 35px;
+   padding: 20px;
+}
+#principal2 #receta3 .ingredientes li{
+ list-style: none;
+}
+#principal2 #receta3 .elaboracion{
+   margin-top: 20px;
+   padding: 25px;
+   width: 300px;
+   height: auto;
+   float: right;
+   margin-right: 100px;
+}
+#principal2 #receta3 .descripcion p{
+    padding: 10px 10px 10px 10px;
+}
+#principal2 #receta3 fieldset legend{
+    font-size: 18px;
+  }
+  #principal2 #receta3 fieldset{
+      margin: 20px 20px 0px 10px;
+      padding-bottom: 20px
+  }
+
+#lateral{
+float: left;
+width: 25%;
+height: 100%;
+padding: 10px;
+padding-left: 30px;
+}
+#lateral p{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+#lateral caption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#infoadicinal img{
+  margin-left: 30px;
+}
+#pie{
+    margin-top: 2230px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 2px solid #999999;
+    background-color: goldenrod;
+}
